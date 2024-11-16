@@ -1,0 +1,87 @@
+/* Container and Navbar */
+.product-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .profile-btn, .logout-btn, .add-car-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .profile-btn:hover, .logout-btn:hover, .add-car-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-car-btn {
+    margin: 20px;
+  }
+  
+  .car-list {
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap:wrap;
+    
+  }
+  
+  /* Loading and Failure Containers */
+  .loading-container, .failure-container, .no-search-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Align items in a column */
+  }
+  
+  .failure-container img, .no-search-container img {
+    width: 150px; /* Adjusted width for a better look */
+    margin-bottom: 20px; /* Add space between the image and text */
+  }
+  
+  .oops1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px; /* Add space between the "Oops!!!" text and the next line */
+  }
+  
+  .noFound1, .failure-container p {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  /* Error Image and Content Centered Vertically */
+  .failure-container {
+    text-align: center;
+  }
+  
+  .no-search-container {
+    text-align: center;
+  }
+  
